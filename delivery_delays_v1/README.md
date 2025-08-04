@@ -33,7 +33,7 @@ This project was built to solve a classification problem using the Dataco Smart 
 
 ## 📁 Project Structure
 ```yaml
-delivery_delays_project/
+delivery_delays_v1/
 ├── data/
 │ └── sample_data.csv # sample for demo
 ├── model/
@@ -128,4 +128,4 @@ streamlit run streamlit_app.py
 
 ## 📌 Author
 Novita Triwidianingsih
-📫 [LinkedIn](https://www.linkedin.com/in/novitatrw94/) | 💻 [GitHub](https://github.com/Novitatrw30/my_portfolio/)
+📫 [LinkedIn](https://www.linkedin.com/in/novitatrw94/) | 💻 [GitHub](https://github.com/Novitatrw30/portfolio_project/)
