@@ -66,8 +66,14 @@ See requirements.txt for full list. Main dependencies:
 
 ---
 
-# 🧠 Notes
+## 🧠 Notes
 - The model pipeline is split for better version compatibility: preprocessing is saved via joblib, XGBoost is saved via .save_model()
-- Designed for further extension (CI/CD, monitoring, versioned models, etc
+- Designed for further extension (CI/CD, monitoring, versioned models, etc)
+
+---
+
+## 📌 Author
+Novita Triwidianingsih
+📫 [LinkedIn](https://www.linkedin.com/in/novitatrw94/) | 💻 [GitHub](https://github.com/Novitatrw30/portfolio_project/)
 
 
