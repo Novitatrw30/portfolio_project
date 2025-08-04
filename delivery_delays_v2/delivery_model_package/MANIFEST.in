@@ -1,0 +1,10 @@
+include README.md
+include *.txt
+recursive-include delivery_model/config *.yml
+recursive-include delivery_model/datasets *.csv
+recursive-include delivery_model/trained_models *.pkl
+exclude *.log
+exclude *.cfg
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

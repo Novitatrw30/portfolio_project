@@ -1,0 +1,19 @@
+# ML
+uvicorn
+fastapi
+pandas
+numpy
+scikit-learn
+xgboost
+feature-engine
+joblib
+strictyaml
+pydantic>=2.0,<3.0
+pydantic-settings>=2.0,<3.0
+loguru
+
+# dev
+black
+isort
+pytest
+jupyter

@@ -1,0 +1,56 @@
+import pandas as pd
+from delivery_model_package.delivery_model.predict import make_prediction
+
+# Simulated raw input row
+raw_input = {
+    "order date (DateOrders)": "2022-05-10",
+    "shipping date (DateOrders)": "2022-05-14",
+    "Days for shipment (scheduled)": 3,
+    "Benefit per order": 29.5,
+    "Sales per customer": 250.0,
+    "Category Id": 2,
+    "Category Name": "Technology",
+    "Customer Segment": "Home Office",
+    "Department Id": 3,
+    "Department Name": "Consumer Electronics",
+    "Latitude": -6.2,
+    "Longitude": 106.8,
+    "Market": "Asia Pacific",
+    "Order City": "Jakarta",
+    "Order Country": "Indonesia",
+    "Order Item Discount": 5.0,
+    "Order Item Discount Rate": 0.1,
+    "Order Item Product Price": 180.0,
+    "Order Item Profit Ratio": 0.15,
+    "Order Item Quantity": 2,
+    "Sales": 360.0,
+    "Order Item Total": 360.0,
+    "Order Profit Per Order": 54.0,
+    "Order Region": "Southeast Asia",
+    "Order State": "DKI Jakarta",
+    "Order Status": "COMPLETE",
+    "Order Zipcode": 12345,
+    "Product Card Id": 123,
+    "Product Category Id": 12,
+    "Product Description": None,
+    "Product Image": "image_001.jpg",
+    "Product Name": "Inkjet Printer",
+    "Product Price": 180.0,
+    "Product Status": 1,
+    "Shipping Mode": "First Class",
+    "Customer Email": "test@example.com",
+    "Customer Fname": "Test",
+    "Customer Lname": "User",
+    "Customer Id": 999,
+    "Customer Password": "password123",
+    "Customer Street": "Jl. Sudirman",
+    "Customer Zipcode": 12345,
+    "Customer City": "Jakarta",
+    "Customer State": "DKI Jakarta",
+    "Customer Country": "Indonesia",
+    "Order Customer Id": 999,
+}
+
+result = make_prediction(input_data=raw_input)
+print("✅ Prediction result:")
+print(result)
