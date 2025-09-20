@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "loan_amnt": 10000,
+      "term": "36 months",
+      "int_rate": "12.5%",
+      "installment": 332.14,
+      "grade": "B",
+      "sub_grade": "B3",
+      "emp_length": "10+ years",
+      "home_ownership": "MORTGAGE",
+      "annual_inc": 55000,
+      "purpose": "credit_card",
+      "addr_state": "CA",
+      "dti": 15.3,
+      "delinq_amnt": 0,
+      "tot_coll_amt": 0,
+      "tax_liens": 0,
+      "issue_d": "2017-06-01"
+    }
+  ]
+}

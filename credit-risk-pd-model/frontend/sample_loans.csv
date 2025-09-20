@@ -1,0 +1,5 @@
+loan_amnt,term,int_rate,emp_length,home_ownership,grade,annual_inc,purpose,addr_state,issue_d,earliest_cr_line,fico_range_low,fico_range_high
+5000,36 months,10.5%,3 years,RENT,C,55000,credit_card,CA,Dec-2016,Jan-2010,780,784
+25000,60 months,22.5%,< 1 year,MORTGAGE,A,28000,small_business,FL,Dec-2016,Sep-1999,685,689
+12000,36 months,16.9%,2 years,MORTGAGE,F,42000,medical,NJ,Dec-2016,Oct-2004,660,664
+8000,36 months,7.9%,10+ years,OWN,D,85000,debt_consolidation,TX,Dec-2016,Nov-2009,745,749
