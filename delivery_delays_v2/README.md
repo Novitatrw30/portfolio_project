@@ -17,11 +17,38 @@ A containerized machine learning API for predicting delivery delays using XGBoos
 ## 🗂️ Project Structure
 ```yaml
 delivery_delays_v2/
-├── delivery_model_package/ # Model training, validation, pipeline
-├── delivery_delays_api/    # FastAPI app
 ├── Dockerfile
 ├── .dockerignore
-└── requirements.txt
+├── requirements.txt
+├── uvicorn
+│
+├── delivery_model_package/ # Model training, validation, pipeline
+│   ├── delivery_model/			# ML folder
+│   ├── pyproject.toml
+│   ├── setup.cfg
+│   ├── tox.ini
+│   ├── requirements.txt
+│   ├── README.md
+│   ├── MANIFEST.in
+│   ├── run_test.py
+│
+├── delivery_delays_api/
+│   ├── requirements.txt
+│   ├── tox.ini
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── api.py
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   ├── __version__.py
+│   │   ├── schemas/
+│   │   │   └── __init__.py
+│   │   │   └── health.py
+│   │   │   └── predict.py
+│   │   ├── tests/
+│   │   │   └── __init__.py
+│   │   │   └── conftest.py
+│   │   │   └── test_api.py
 ```
 
 ---
